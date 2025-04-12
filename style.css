@@ -1,0 +1,6 @@
+iframe {
+    display: block;
+    margin: 20px auto; /* Centraliza o iframe */
+    border: none;
+    border-radius: 8px;
+}
