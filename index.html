@@ -14,40 +14,59 @@
         <h1>Análises de estruturas de dados atráves de Benchmark</h1>
         <nav>
             <ul>
+            <li><a href="#intro">Intodução</a></li>
+            <li><a href="#use">Como usar</a></li>
+            <li><a href="#metodologia">Metodologia Geral</a></li>
+            <li><a href="#arvores">Sobre as estruturas</a></li>
+            <li><a href="#resultados">Resultados dos Benchmarks</a></li>
+            <li><a href="#conclusao">Conclusão</a></li>
             </ul>
         </nav>
     </header>
 
     <section id="intro">
-        <h2>Proposta do projeto</h2>
-        <p>Comparar as estruturas BTree, SplayTree e TreeMap usando benchmarks em diferentes métodos atráves do JMH</p>
-    </section>
+        <h2>Introdução</h2>
+        <p>Proposta do projeto e membros do grupo</p>
+</section>
 
-    <section id="home">
-        <h2>Introdução do grupo</h2>
-        <p> Bla Bla Bla </p>
+    <section id="use">
+        <h2>Como usar</h2>
+        <p> explicar com compilar e rodar os testes</p>
         
-    </section>
-   <section id="relatorio">
-    <h2>Relatório</h2>
+</section>
+   <section id="metodologia">
+    <h2>Metodologia Geral</h2>
+    <p>Colocar a metodologia.</p>
 
-    <h3>Cargas</h3>
-    <p>Descrevemos aqui os tipos de cargas utilizadas nos benchmarks, como tamanhos de entrada, volume de dados e distribuição.</p>
+    <section id="arvores">
+    <h2>Árvores</h2>
+    <p>explicaro conceito de árvores</p>
+    <h3>BTree</h3>
+        <p> Explicar BTree</p>
+    <h3>SplayTree</h3>
+        <p> Explicar SplayTree</p>
+    <h3>TreeMap</h3>
+        <p> Explicar TreeMap</p>
+</section>
 
-    <h3>Testes</h3>
-    <p>Detalhamento dos testes realizados com JMH, incluindo configuração do ambiente, número de iterações, warmups, etc.</p>
-
-    <h3>Resultados</h3>
+    <section id="resultados">
+    <h2>Resultados</h2>
     <iframe title="Benchmarks"  width="1140" height="541.25" 
             src="https://app.powerbi.com/view?r=eyJrIjoiNmZlODM2YzctNTMwYi00ZTdlLTk2NzktZDFiMzE4ZjZlZDkwIiwidCI6ImU3NzBmMjc3LWRhODItNGFhMi05ZTg2LTRjZWQyYTA3MWU4MiJ9" 
             frameborder="0" allowFullScreen="true">
         </iframe>
+    <p>Use o seletor acima para filtrar os resultados por método (como `insert`, `remove, search`). Usando as setas na parte e baixo, se navega entre tempo de execução (em milissegundos por operação) e memória alocada pelo Garbage Collector do Java, em MB/sec entre BTree, SplayTree e TreeMap.</p>
+
     <p>Apresentação dos resultados obtidos em forma de gráficos e observações comparativas entre BTree, SplayTree e TreeMap.</p>
 
-    <h3>Análise</h3>
+    <h2>Análise</h2>
     <p>Discussão crítica dos resultados, com destaque para desempenho, consumo de memória e aplicações recomendadas para cada estrutura.</p>
 </section>
 
+    <section id="conclusao">
+    <h2>Conclusão</h2>
+    <p>Recomendamos o uso da BTree para sistemas com alta carga e dados persistentes. Para cenários com acesso repetitivo, a SplayTree é uma escolha eficaz.</p>
+</section>
 
     <footer>
         <p>&copy; 2025. Todos os direitos reservados.</p>
