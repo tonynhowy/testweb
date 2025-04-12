@@ -1,78 +1,84 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Structure Analysis</title
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Data Structure Analysis</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-    <header>
-        <h1>Análises de estruturas de dados atráves de Benchmark</h1>
+    <!-- Sidebar fixa -->
+    <aside class="sidebar">
         <nav>
             <ul>
-            <li><a href="#intro">Intodução</a></li>
-            <li><a href="#use">Como usar</a></li>
-            <li><a href="#metodologia">Metodologia Geral</a></li>
-            <li><a href="#arvores">Sobre as estruturas</a></li>
-            <li><a href="#resultados">Resultados dos Benchmarks</a></li>
-            <li><a href="#conclusao">Conclusão</a></li>
+                <li><a href="#intro">Introdução</a></li>
+                <li><a href="#use">Como usar</a></li>
+                <li><a href="#metodologia">Metodologia Geral</a></li>
+                <li><a href="#arvores">Estruturas</a></li>
+                <li><a href="#resultados">Resultados</a></li>
+                <li><a href="#conclusao">Conclusão</a></li>
             </ul>
         </nav>
-    </header>
+    </aside>
 
-    <section id="intro">
-        <h2>Introdução</h2>
-        <p>Proposta do projeto e membros do grupo</p>
-</section>
+    <!-- Conteúdo principal -->
+    <main class="conteudo">
+        <header>
+            <h1>Análises de estruturas de dados através de Benchmark</h1>
+        </header>
 
-    <section id="use">
-        <h2>Como usar</h2>
-        <p> explicar com compilar e rodar os testes</p>
+        <section id="intro">
+            <h2>Introdução</h2>
+            <p>Proposta do projeto e membros do grupo.</p>
         
-</section>
-   <section id="metodologia">
-    <h2>Metodologia Geral</h2>
-    <p>Colocar a metodologia.</p>
 
-    <section id="arvores">
-    <h2>Árvores</h2>
-    <p>explicaro conceito de árvores</p>
-    <h3>BTree</h3>
-        <p> Explicar BTree</p>
-    <h3>SplayTree</h3>
-        <p> Explicar SplayTree</p>
-    <h3>TreeMap</h3>
-        <p> Explicar TreeMap</p>
-</section>
+        <section id="use">
+            <h2>Como usar</h2>
+            <p>Explicação de como compilar e rodar os testes.</p>
+        
 
-    <section id="resultados">
-    <h2>Resultados</h2>
-    <iframe title="Benchmarks"  width="1140" height="541.25" 
-            src="https://app.powerbi.com/view?r=eyJrIjoiNmZlODM2YzctNTMwYi00ZTdlLTk2NzktZDFiMzE4ZjZlZDkwIiwidCI6ImU3NzBmMjc3LWRhODItNGFhMi05ZTg2LTRjZWQyYTA3MWU4MiJ9" 
-            frameborder="0" allowFullScreen="true">
-        </iframe>
-    <p>Use o seletor acima para filtrar os resultados por método (como `insert`, `remove, search`). Usando as setas na parte e baixo, se navega entre tempo de execução (em milissegundos por operação) e memória alocada pelo Garbage Collector do Java, em MB/sec entre BTree, SplayTree e TreeMap.</p>
+        <section id="metodologia">
+            <h2>Metodologia Geral</h2>
+            <p>Descrição geral da metodologia utilizada nos testes.</p>
+        
 
-    <p>Apresentação dos resultados obtidos em forma de gráficos e observações comparativas entre BTree, SplayTree e TreeMap.</p>
+        <section id="arvores">
+            <h2>Sobre as Estruturas</h2>
+            <p>Explicação geral sobre árvores.</p>
+            <h3>BTree</h3>
+            <p>Explicação sobre BTree.</p>
+            <h3>SplayTree</h3>
+            <p>Explicação sobre SplayTree.</p>
+            <h3>TreeMap</h3>
+            <p>Explicação sobre TreeMap.</p>
+        
 
-    <h2>Análise</h2>
-    <p>Discussão crítica dos resultados, com destaque para desempenho, consumo de memória e aplicações recomendadas para cada estrutura.</p>
-</section>
+        <section id="resultados">
+            <h2>Resultados dos Benchmarks</h2>
+            <iframe title="Benchmarks" width="1140" height="541.25"
+                src="https://app.powerbi.com/view?r=eyJrIjoiNmZlODM2YzctNTMwYi00ZTdlLTk2NzktZDFiMzE4ZjZlZDkwIiwidCI6ImU3NzBmMjc3LWRhODItNGFhMi05ZTg2LTRjZWQyYTA3MWU4MiJ9"
+                frameborder="0" allowfullscreen="true">
+            </iframe>
+            <p>Use o seletor acima para filtrar os resultados por método (como <code>insert</code>, <code>remove</code>, <code>search</code>). As setas na parte inferior do gráfico permitem navegar entre os indicadores de tempo (ms/op) e memória (MB/sec).</p>
+        
 
-    <section id="conclusao">
-    <h2>Conclusão</h2>
-    <p>Recomendamos o uso da BTree para sistemas com alta carga e dados persistentes. Para cenários com acesso repetitivo, a SplayTree é uma escolha eficaz.</p>
-</section>
+        <section>
+            <h2>Análise</h2>
+            <p>Discussão crítica dos resultados, com destaque para desempenho, consumo de memória e aplicações recomendadas para cada estrutura.</p>
+        
 
-    <footer>
-        <p>&copy; 2025. Todos os direitos reservados.</p>
-    </footer>
+        <section id="conclusao">
+            <h2>Conclusão</h2>
+            <p>Recomendamos o uso da BTree para sistemas com alta carga e dados persistentes. Para cenários com acesso repetitivo, a SplayTree é uma escolha eficaz.</p>
+        </section>
 
-    <script src="script.js"></script>
+        <footer>
+            <p>&copy; 2025. Todos os direitos reservados.</p>
+        </footer>
+    </main>
 </body>
 </html>
+
 
