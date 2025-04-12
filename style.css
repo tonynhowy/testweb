@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background-color: #b266ff;
+    background-color: #30253b;
     color: white;
     padding: 20px 0;
     text-align: center;
@@ -49,7 +49,7 @@ iframe {
 
 footer {
     text-align: center;
-    background-color: #b266ff;
+    background-color: #30253b;
     color: white;
     padding: 20px 0;
     margin-top: 40px;
@@ -57,7 +57,7 @@ footer {
 
 section h3 {
     margin-top: 30px;
-    color: #b266ff;
+    color: #30253b;
     border-bottom: 2px solid #eee;
     padding-bottom: 5px;
 }
@@ -68,7 +68,7 @@ section h3 {
     left: 0;
     width: 220px;
     height: 100%;
-    background-color: #b266ff;
+    background-color: #30253b;
     padding-top: 100px;
     box-shadow: 2px 0 5px rgba(0,0,0,0.1);
     z-index: 10;
@@ -94,7 +94,7 @@ section h3 {
 }
 
 .sidebar nav ul li a:hover {
-    background-color: ##b266ff;
+    background-color: #30253b;
 }
 
 
