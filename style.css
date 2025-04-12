@@ -1,4 +1,4 @@
-/* style.css */
+
 body {
     font-family: 'Inter', sans-serif;
     margin: 0;
@@ -18,9 +18,9 @@ header {
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: flex-start; /* Alinha à esquerda */
+    justify-content: flex-start;
     gap: 20px;
-    padding-left: 20px; /* Espaço da borda */
+    padding-left: 20px; 
     margin: 0;
 }
 
@@ -62,3 +62,43 @@ section h3 {
     padding-bottom: 5px;
 }
 
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 220px;
+    height: 100%;
+    background-color: #2c3e50;
+    padding-top: 100px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    z-index: 10;
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.sidebar nav ul li {
+    margin: 0;
+}
+
+.sidebar nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    transition: background 0.3s;
+}
+
+.sidebar nav ul li a:hover {
+    background-color: #34495e;
+}
+
+
+main {
+    margin-left: 220px;
+    padding: 20px;
+}
